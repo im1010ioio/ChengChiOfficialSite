@@ -9,7 +9,7 @@ export function Team() {
       <div class="border-l-2 border-[#C5A47E] pl-4">
         <span class="text-xs text-[#C5A47E] font-bold uppercase block mb-1">${member.role}</span>
         <h3 class="text-xl font-serif text-gray-800 mb-2">${member.name}</h3>
-        <button class="text-xs text-gray-400 border border-gray-300 px-4 py-1 hover:bg-gray-50 hover:text-gray-600 transition">了解更多</button>
+        <a href="./member.html?id=${member.id}" class="inline-block text-xs text-gray-400 border border-gray-300 px-4 py-1 hover:bg-gray-50 hover:text-gray-600 transition">了解更多</a>
       </div>
     </div>
   `).join('');

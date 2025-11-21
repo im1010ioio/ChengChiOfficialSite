@@ -11,6 +11,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         about: resolve(__dirname, 'about.html'),
+        member: resolve(__dirname, 'member.html'),
       },
       output: {
         assetFileNames: (assetInfo) => {
