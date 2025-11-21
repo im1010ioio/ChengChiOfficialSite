@@ -1,11 +1,11 @@
 import { companyInfo, navLinks } from '../data/content';
 
 export function Header() {
-    const navItems = navLinks.map(link =>
-        `<a href="${link.href}" class="hover:text-white transition">${link.name}</a>`
-    ).join('');
+  const navItems = navLinks.map(link =>
+    `<a href="${link.href}" class="hover:text-white transition">${link.name}</a>`
+  ).join('');
 
-    return `
+  return `
     <header class="absolute top-0 left-0 right-0 z-50">
       <div class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
         <div class="flex items-center gap-2">
@@ -14,7 +14,7 @@ export function Header() {
            </div>
            <div class="text-white text-xl font-bold tracking-wide">${companyInfo.name}</div>
         </div>
-        <nav class="hidden md:flex space-x-8 text-white/90 text-sm tracking-wide">
+        <nav class="hidden md:flex space-x-8 text-white/90 tracking-wide">
           ${navItems}
         </nav>
       </div>

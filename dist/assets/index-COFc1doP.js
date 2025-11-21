@@ -16,7 +16,7 @@
            </div>
            <div class="text-white text-xl font-bold tracking-wide">${a.name}</div>
         </div>
-        <nav class="hidden md:flex space-x-8 text-white/90 text-sm tracking-wide">
+        <nav class="hidden md:flex space-x-8 text-white/90 tracking-wide">
           ${i}
         </nav>
       </div>
@@ -36,12 +36,12 @@
     </section>
   `}function C(){const i=d.items.map(t=>`
     <div>
-      <h3 class="text-lg font-bold text-gray-800 mb-3">${t.title}</h3>
-      <p class="text-sm text-gray-500 leading-relaxed">${t.desc}</p>
+      <h3 class="text-2xl font-bold text-gray-800 mb-3">${t.title}</h3>
+      <p class="text-lg text-gray-500 leading-relaxed">${t.desc}</p>
     </div>
   `).join("");return`
     <section class="pt-24 pb-16 text-center bg-white">
-      <h2 class="text-2xl text-[#C5A47E] font-serif mb-12 tracking-widest">${d.title}</h2>
+      <h2 class="text-3xl text-[#C5A47E] mb-12 tracking-widest">${d.title}</h2>
       <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
         ${i}
       </div>
@@ -53,7 +53,7 @@
           <span class="text-xs font-bold text-gray-400 uppercase tracking-widest">ABOUT</span>
           <h2 class="text-4xl font-serif text-[#C5A47E] mt-2 mb-6">${l.title}</h2>
           <p class="text-xl font-light text-gray-700 mb-8">${l.subtitle}</p>
-          <a href="#" class="inline-block bg-[#5E5E5E] text-white px-8 py-3 text-sm tracking-wider hover:bg-gray-700 transition">了解更多</a>
+          <a href="#" class="inline-block bg-[#5E5E5E] text-white px-8 py-3 tracking-wider hover:bg-gray-700 transition">了解更多</a>
         </div>
         <div class="md:w-2/3 text-gray-600 leading-loose text-sm">
           <p class="mb-6">${l.desc1}</p>
@@ -98,7 +98,7 @@
       <img src="${t.image}" class="w-full md:w-1/2 h-48 object-cover" alt="${t.title}">
       <div class="text-left">
         <h3 class="text-xl font-bold text-gray-800 mb-3">${t.title}</h3>
-        <p class="text-sm text-gray-500 leading-relaxed mb-4">${t.desc}</p>
+        <p class="text-gray-500 leading-relaxed mb-4">${t.desc}</p>
       </div>
     </div>
   `).join("")}
