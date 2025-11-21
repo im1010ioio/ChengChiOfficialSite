@@ -1,0 +1,25 @@
+import './styles/tailwind.css';
+import './styles/main.scss';
+
+import { Header } from './components/Header';
+import { Footer } from './components/Footer';
+import { FirmIntro } from './components/FirmIntro';
+import { BrandPhilosophy } from './components/BrandPhilosophy';
+import { ContactSection } from './components/ContactSection';
+
+const app = document.getElementById('app');
+
+app.innerHTML = `
+  <div class="font-sans text-[#333]">
+    ${Header()}
+    
+    <!-- Spacer for fixed header -->
+    <div class="h-24 bg-[#4A4A4A]"></div>
+
+    ${FirmIntro()}
+    ${BrandPhilosophy()}
+    ${ContactSection()}
+    
+    ${Footer()}
+  </div>
+`;

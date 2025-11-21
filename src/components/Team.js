@@ -1,7 +1,7 @@
 import { teamData } from '../data/content';
 
 export function Team() {
-    const membersHtml = teamData.map(member => `
+  const membersHtml = teamData.map(member => `
     <div class="group">
       <div class="overflow-hidden mb-4">
         <img src="${member.image}" alt="${member.name}" class="w-full h-[400px] object-cover object-top transition duration-500 group-hover:scale-105 grayscale group-hover:grayscale-0">
@@ -14,7 +14,7 @@ export function Team() {
     </div>
   `).join('');
 
-    return `
+  return `
     <section class="py-20 bg-white">
       <div class="max-w-6xl mx-auto px-6">
         <div class="mb-12">
