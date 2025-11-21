@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  base: './',
   // 確保 build 時會進行 CSS code-splitting 並輸出獨立的 CSS 檔案
   build: {
     cssCodeSplit: true,
