@@ -22,7 +22,7 @@ export const companyInfo = {
 export const navLinks = [
     { name: "事務所簡介", href: "./about.html" },
     { name: "服務項目", href: "./index.html#services" },
-    { name: "專業諮詢", href: "./index.html#team" }
+    { name: "專業諮詢", href: "./index.html#professionals" }
 ];
 
 export const heroData = {

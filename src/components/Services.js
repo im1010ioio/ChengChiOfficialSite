@@ -12,10 +12,10 @@ export function Services() {
   `).join('');
 
   return `
-    <section class="py-20 bg-gray-50">
+    <section id="services" class="py-20 bg-gray-50">
       <div class="max-w-6xl mx-auto px-6 text-center mb-16">
         <span class="font-sans text-sm font-bold uppercase ">SERVICES</span>
-        <h2 class="text-4xl text-[#B77449] font-bold mt-1 mb-6">服務項目</h2>
+        <h2 class="text-4xl text-[#B77449] font-bold mb-6">服務項目</h2>
       </div>
 
       <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12">

@@ -1,4 +1,4 @@
-import{h as a,c as l,s as i,a as s,t as o,b as c,H as n,F as d}from"./Footer-16fB2aIF.js";function x(){return`
+import{h as a,c as l,s as i,a as s,t as o,b as c,H as n,F as d}from"./Footer-BiEtuCxt.js";function r(){return`
     <section class="relative h-[600px] flex items-center justify-center bg-cover bg-center" style="background-image: url('${a.bgImage}');">
       <div class="absolute inset-0 bg-black/40"></div>
       <div class="relative z-10 text-center text-white px-4">
@@ -11,13 +11,13 @@ import{h as a,c as l,s as i,a as s,t as o,b as c,H as n,F as d}from"./Footer-16f
          <span class="text-[10px] text-gray-500 uppercase mt-1">${l.est}</span>
       </div>
     </section>
-  `}function r(){const e=i.items.map(t=>`
+  `}function x(){const e=i.items.map(t=>`
     <div>
       <h3 class="text-2xl font-bold mb-8 title-underline">${t.title}</h3>
       <p class="text-lg leading-relaxed">${t.desc}</p>
     </div>
   `).join("");return`
-    <section class="pt-18 pb-24 text-center bg-[#F4F3F1]">
+    <section class="pt-18 pb-28 text-center bg-[#F4F3F1]">
       <span class="font-sans text-sm font-bold uppercase">VALUES</span>
       <h2 class="text-3xl text-[#B77449] font-bold mb-16">${i.title}</h2>
       <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
@@ -25,26 +25,26 @@ import{h as a,c as l,s as i,a as s,t as o,b as c,H as n,F as d}from"./Footer-16f
       </div>
     </section>
   `}function m(){return`
-    <section class="py-20">
+    <section id="about" class="py-20">
       <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-start gap-12">
         <div class="md:w-1/3">
           <span class="font-sans text-sm font-bold uppercase">ABOUT</span>
-          <h2 class="text-4xl text-[#B77449] font-bold mt-1 mb-6">${s.title}</h2>
-          <p class="text-xl font-light text-gray-700 mb-8">${s.subtitle}</p>
+          <h2 class="text-4xl text-[#B77449] font-bold mb-6">${s.title}</h2>
+          <p class="text-2xl">${s.subtitle}</p>
         </div>
-        <div class="md:w-2/4 text-lg  leading-loose">
+        <div class="md:w-2/4 text-lg leading-loose ms-auto">
           <p class="mb-6">${s.desc1}</p>
-          <p class="mb-6">${s.desc2}</p>
+          <p class="mb-10">${s.desc2}</p>
           <a href="about.html" class="inline-block bg-[#5E5E5E] text-white px-5 py-1 tracking-wider hover:bg-gray-700 transition">了解更多</a>
         </div>
       </div>
     </section>
   `}function p(){return`
-    <section class="py-20">
+    <section id="professionals" class="py-20">
       <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-start gap-12">
         <div class="md:w-1/5">
           <span class="font-sans text-sm font-bold uppercase ">PROFESSIONALS</span>
-          <h2 class="text-4xl text-[#B77449] font-bold mt-1 mb-6">專業諮詢</h2>
+          <h2 class="text-4xl text-[#B77449] font-bold mb-6">專業諮詢</h2>
         </div>
         <div class="md:w-4/5 text-lg  leading-loose grid grid-cols-1 md:grid-cols-3 gap-8">
           ${o.map(t=>`
@@ -63,10 +63,10 @@ import{h as a,c as l,s as i,a as s,t as o,b as c,H as n,F as d}from"./Footer-16f
       </div>
     </section>
   `}function g(){return`
-    <section class="py-20 bg-gray-50">
+    <section id="services" class="py-20 bg-gray-50">
       <div class="max-w-6xl mx-auto px-6 text-center mb-16">
         <span class="font-sans text-sm font-bold uppercase ">SERVICES</span>
-        <h2 class="text-4xl text-[#B77449] font-bold mt-1 mb-6">服務項目</h2>
+        <h2 class="text-4xl text-[#B77449] font-bold mb-6">服務項目</h2>
       </div>
 
       <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -84,8 +84,8 @@ import{h as a,c as l,s as i,a as s,t as o,b as c,H as n,F as d}from"./Footer-16f
   `}const b=document.getElementById("app");b.innerHTML=`
   <div class=" text-[#6D5F56]">
     ${n()}
-    ${x()}
     ${r()}
+    ${x()}
     ${m()}
     ${p()}
     ${g()}
