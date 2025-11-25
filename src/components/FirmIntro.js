@@ -7,6 +7,6 @@ export function FirmIntro() {
     return SectionLayout({
         title: aboutPageData.intro.title,
         content: contentHtml,
-        className: "bg-[#F9F9F9]"
+        className: "bg-[#F4F3F1]"
     });
 }

@@ -6,23 +6,22 @@ export function Team() {
       <div class="overflow-hidden mb-4">
         <img src="${member.image}" alt="${member.name}" class="w-full h-[400px] object-cover object-top transition duration-500 group-hover:scale-105 grayscale group-hover:grayscale-0">
       </div>
-      <div class="border-l-2 border-[#C5A47E] pl-4">
-        <span class="text-xs text-[#C5A47E] font-bold uppercase block mb-1">${member.role}</span>
-        <h3 class="text-xl font-serif text-gray-800 mb-2">${member.name}</h3>
-        <a href="./member.html?id=${member.id}" class="inline-block text-xs text-gray-400 border border-gray-300 px-4 py-1 hover:bg-gray-50 hover:text-gray-600 transition">了解更多</a>
+      <div>
+        <span class="text-[#B77449] font-bold uppercase block">${member.role}</span>
+        <h3 class="text-2xl text-gray-800 mb-6">${member.name}</h3>
+        <a href="./member.html?id=${member.id}" class="inline-block bg-[#5E5E5E] text-white px-6 tracking-wider hover:bg-gray-700 transition">了解更多</a>
       </div>
     </div>
   `).join('');
 
   return `
-    <section class="py-20 bg-white">
-      <div class="max-w-6xl mx-auto px-6">
-        <div class="mb-12">
-          <span class="text-xs font-bold text-gray-400 uppercase tracking-widest">PROFESSIONALS</span>
-          <h2 class="text-4xl font-serif text-[#C5A47E] mt-2">專業諮詢</h2>
+    <section class="py-20">
+      <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-start gap-12">
+        <div class="md:w-1/5">
+          <span class="font-sans text-sm font-bold uppercase ">PROFESSIONALS</span>
+          <h2 class="text-4xl text-[#B77449] font-bold mt-1 mb-6">專業諮詢</h2>
         </div>
-        
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="md:w-4/5 text-lg  leading-loose grid grid-cols-1 md:grid-cols-3 gap-8">
           ${membersHtml}
         </div>
       </div>

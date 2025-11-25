@@ -1,15 +1,20 @@
 $bg: #f7f7f9;
 $primary: #2b6cb0;
 
+@import url("https://font.emtech.cc/css/GenWanMinTW");
+
+@theme {
+  --font-serif: "GenWanMinTW", serif; 
+}
+
 body {
   margin: 0;
-  background: $bg;
   color: #222;
+  font-family: var(--font-serif);
 }
 
 h1 {
   font-weight: 700;
-  font-size: 2rem;
 }
 
 /* Fallback styles for cards and buttons (in case Tailwind utilities are missing) */
@@ -31,4 +36,19 @@ h1 {
 
 .btn-primary:hover {
   background: #0369a1;
+}
+
+.title-underline{
+  position: relative;
+  &::before{
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 1px;
+    background-color: #B77449;
+    border-radius: 2px;
+  }
 }

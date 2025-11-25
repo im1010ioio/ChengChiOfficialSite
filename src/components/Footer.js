@@ -11,7 +11,7 @@ export function Footer() {
         <div>
            <div class="flex items-center gap-2 mb-6">
              <div class="w-8 h-8 bg-white/90 rounded-full flex items-center justify-center">
-               <span class="text-[#C5A47E] font-bold text-sm">${companyInfo.logoText}</span>
+               <span class="text-[#B77449] font-bold text-sm">${companyInfo.logoText}</span>
              </div>
              <div class="text-white text-lg font-bold tracking-wide">${companyInfo.name}</div>
            </div>

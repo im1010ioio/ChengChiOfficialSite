@@ -10,7 +10,7 @@ import { ContactSection } from './components/ContactSection';
 const app = document.getElementById('app');
 
 app.innerHTML = `
-  <div class="font-sans text-[#333]">
+  <div class="">
     ${Header()}
     
     <!-- Spacer for fixed header -->

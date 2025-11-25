@@ -14,8 +14,8 @@ export function ContactSection() {
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
       <div>
-        <h3 class="text-xl font-serif text-gray-800 mb-6">聯絡方式</h3>
-        <div class="space-y-2 text-gray-600">
+        <h3 class="text-xl text-gray-800 mb-6">聯絡方式</h3>
+        <div class="space-y-2 ">
           <p>電話 : ${info.tel}</p>
           <p>傳真 : ${info.fax}</p>
           <p>地址 : ${info.address}</p>
@@ -23,8 +23,8 @@ export function ContactSection() {
       </div>
 
       <div>
-        <h3 class="text-xl font-serif text-gray-800 mb-6">交通資訊</h3>
-        <div class="space-y-6 text-gray-600">
+        <h3 class="text-xl text-gray-800 mb-6">交通資訊</h3>
+        <div class="space-y-6 ">
           <div>
             <p class="font-bold mb-1">捷運 :</p>
             <ul class="list-disc list-inside pl-2">

@@ -3,9 +3,9 @@ export function SectionLayout({ title, content, className = "" }) {
     <section class="py-20 ${className}">
       <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-start gap-12">
         <div class="md:w-1/4">
-          <h2 class="text-3xl font-serif text-gray-800 tracking-widest">${title}</h2>
+          <h2 class="text-3xl text-gray-800 ">${title}</h2>
         </div>
-        <div class="md:w-3/4 text-gray-600 leading-loose text-sm space-y-6">
+        <div class="md:w-3/4  leading-loose text-sm space-y-6">
           ${content}
         </div>
       </div>

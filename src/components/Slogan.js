@@ -3,14 +3,15 @@ import { sloganData } from '../data/content';
 export function Slogan() {
   const itemsHtml = sloganData.items.map(item => `
     <div>
-      <h3 class="text-2xl font-bold text-gray-800 mb-3">${item.title}</h3>
-      <p class="text-lg text-gray-500 leading-relaxed">${item.desc}</p>
+      <h3 class="text-2xl font-bold mb-8 title-underline">${item.title}</h3>
+      <p class="text-lg leading-relaxed">${item.desc}</p>
     </div>
   `).join('');
 
   return `
-    <section class="pt-24 pb-16 text-center bg-white">
-      <h2 class="text-3xl text-[#C5A47E] mb-12 tracking-widest">${sloganData.title}</h2>
+    <section class="pt-18 pb-24 text-center bg-[#F4F3F1]">
+      <span class="font-sans text-sm font-bold uppercase">VALUES</span>
+      <h2 class="text-3xl text-[#B77449] font-bold mb-20">${sloganData.title}</h2>
       <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
         ${itemsHtml}
       </div>
