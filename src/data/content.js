@@ -17,10 +17,9 @@ export const companyInfo = {
     est: "EST. 2025",
     address: "104695 台北市中山區松江路71號4樓",
     tel: "02-25080750",
-    fax: "02-25080750",
+    fax: "02-25080695",
     email: "",
-    taxId: "",
-    copyright: "Copyright © 2025 丞起聯合會計師 All rights reserved."
+    taxId: ""
 };
 
 export const navLinks = [

@@ -1,10 +1,10 @@
-import{d as i,H as e,F as c}from"./Footer-BLH_UULS.js";function o({title:t,content:s,className:l=""}){return`
+import{d as i,H as e,F as c}from"./Footer-B3DuEiZC.js";function o({title:t,content:s,className:l=""}){return`
     <section class="py-20 ${l}">
       <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-start gap-12">
         <div class="md:w-1/4">
-          <h2 class="text-3xl text-gray-800 ">${t}</h2>
+          <h2 class="text-3xl">${t}</h2>
         </div>
-        <div class="md:w-3/4  leading-loose text-sm space-y-6">
+        <div class="md:w-3/4 leading-loose space-y-6">
           ${s}
         </div>
       </div>

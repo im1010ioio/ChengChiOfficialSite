@@ -8,6 +8,8 @@ export function Footer() {
     `<a href="member.html?id=${member.id}" class="block hover:text-white">${member.name}${member.role}</a>`
   ).join('');
 
+  const currentYear = new Date().getFullYear();
+
   return `
     <footer class="bg-[#4A4A4A] text-white py-16">
       <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-start gap-12">
@@ -31,8 +33,8 @@ export function Footer() {
           </div>
         </div>
       </div>
-      <div class="max-w-6xl mx-auto px-6 mt-12 pt-8 border-t border-gray-600 text-center text-[10px] text-gray-500">
-        ${companyInfo.copyright}
+      <div class="max-w-6xl mx-auto px-6 mt-12 pt-4 border-t border-gray-500 text-center text-xs text-gray-400">
+        Copyright © ${currentYear} 丞起聯合會計師事務所 All rights reserved.
       </div>
     </footer>
   `;
