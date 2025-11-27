@@ -52,6 +52,6 @@ export function ContactSection() {
   return SectionLayout({
     title: aboutPageData.contact.title,
     content: contentHtml,
-    className: "bg-white"
+    className: "bg-[#F4F3F1]"
   });
 }

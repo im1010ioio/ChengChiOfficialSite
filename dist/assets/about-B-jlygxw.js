@@ -1,10 +1,10 @@
 import{d as i,c as e,H as a,F as n}from"./Footer-DTI613Tj.js";function o({title:t,content:s,className:l=""}){return`
     <section class="py-20 ${l}">
-      <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-start gap-12">
+      <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-start justify-center gap-12">
         <div class="md:w-1/4">
-          <h2 class="text-3xl">${t}</h2>
+          <h2 class="text-3xl text-[#5A5856]">${t}</h2>
         </div>
-        <div class="md:w-3/4 leading-loose space-y-6">
+        <div class="md:w-2/3 leading-loose space-y-6">
           ${s}
         </div>
       </div>
@@ -51,7 +51,7 @@ import{d as i,c as e,H as a,F as n}from"./Footer-DTI613Tj.js";function o({title:
         </div>
       </div>
     </div>
-  `;return o({title:i.contact.title,content:s,className:"bg-white"})}const m=document.getElementById("app");m.innerHTML=`
+  `;return o({title:i.contact.title,content:s,className:"bg-[#F4F3F1]"})}const r=document.getElementById("app");r.innerHTML=`
   <div class="">
     ${a()}
     

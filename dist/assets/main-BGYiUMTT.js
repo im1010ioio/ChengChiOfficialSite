@@ -91,5 +91,8 @@ import{h as a,c as l,s as i,a as s,t as o,b as c,H as n,F as d}from"./Footer-DTI
     ${m()}
     ${g()}
     ${d()}
+    <div id="loading">
+      <span class="loader"></span>
+    </div>
   </div>
 `;

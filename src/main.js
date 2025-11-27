@@ -20,5 +20,8 @@ app.innerHTML = `
     ${Team()}
     ${Services()}
     ${Footer()}
+    <div id="loading">
+      <span class="loader"></span>
+    </div>
   </div>
 `;
