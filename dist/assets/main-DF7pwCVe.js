@@ -43,7 +43,7 @@ import{h as a,c as l,s as i,a as s,t as o,b as c,H as d,F as n,d as r,e as x}fro
     <section id="professionals" class="py-20">
       <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-start gap-12">
         <div class="md:w-1/5">
-          <span class="font-sans text-sm font-bold uppercase ">PROFESSIONALS</span>
+          <span class="font-sans text-sm font-bold uppercase">PROFESSIONALS</span>
           <h2 class="text-4xl text-[#B77449] font-bold mb-6">專業諮詢</h2>
         </div>
         <div class="md:w-4/5 text-lg  leading-loose grid grid-cols-1 md:grid-cols-3 gap-8">

@@ -15,16 +15,16 @@ export function ContactSection() {
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
       <div>
-        <h3 class="text-xl mb-6">聯絡方式</h3>
+        <h3 class="text-xl font-bold mb-4">聯絡方式</h3>
         <div class="space-y-2 ">
-          <p>電話：${companyInfo.tel}</p>
-          <p>傳真：${companyInfo.fax}</p>
-          <p>地址：${companyInfo.address}</p>
+          <p><span class="font-bold">電話：</span>${companyInfo.tel}</p>
+          <p><span class="font-bold">傳真：</span>${companyInfo.fax}</p>
+          <p><span class="font-bold">地址：</span>${companyInfo.address}</p>
         </div>
       </div>
 
       <div>
-        <h3 class="text-xl mb-6">交通資訊</h3>
+        <h3 class="text-xl font-bold mb-4">交通資訊</h3>
         <div class="space-y-6 ">
           <div>
             <p class="font-bold mb-1">捷運 :</p>
@@ -51,6 +51,7 @@ export function ContactSection() {
 
   return SectionLayout({
     title: aboutPageData.contact.title,
+    subtitle: "Contact",
     content: contentHtml,
     className: "bg-[#F4F3F1]"
   });
