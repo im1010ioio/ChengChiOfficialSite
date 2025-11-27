@@ -3,6 +3,7 @@ import './styles/main.scss';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { MemberProfile } from './components/MemberProfile';
+import { setupLoading, LoadingHTML } from './utils/loading';
 
 document.querySelector('#app').innerHTML = `
   ${Header()}
@@ -14,4 +15,7 @@ document.querySelector('#app').innerHTML = `
     ${MemberProfile()}
   </main>
   ${Footer()}
+  ${LoadingHTML}
 `;
+
+setupLoading();

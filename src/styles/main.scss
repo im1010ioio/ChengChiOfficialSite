@@ -119,13 +119,12 @@ footer a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(255, 255, 255, .7);
+  background-color: rgba(255, 255, 255, .9);
   display: flex;
   justify-content: center;
   align-items: center;
   backdrop-filter: blur(10px);
   z-index: 9999;
-  display: none;
 }
 
 .loader {
@@ -172,4 +171,19 @@ footer a:hover {
   100% {
     clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 0)
   }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.fadeOut {
+  animation: fadeOut 1s ease-in-out;
+  pointer-events: none;
 }

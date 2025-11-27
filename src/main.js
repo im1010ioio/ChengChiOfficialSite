@@ -25,3 +25,6 @@ app.innerHTML = `
     </div>
   </div>
 `;
+
+import { setupLoading } from './utils/loading';
+setupLoading();
