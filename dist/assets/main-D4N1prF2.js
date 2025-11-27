@@ -1,4 +1,4 @@
-import{h as a,c as l,s as i,a as s,t as o,b as c,H as d,F as n,d as r,e as x}from"./loading-BjE_pHry.js";function m(){return`
+import{h as a,c as l,s as i,a as s,t as o,b as d,H as c,F as n,d as r,e as x}from"./loading-Br4aTuEE.js";function p(){return`
     <div id="top"></div>
     <section class="relative h-[650px] flex items-center justify-center bg-cover bg-center" style="background-image: url('${a.bgImage}');">
       <div class="absolute inset-0 bg-black/40"></div>
@@ -11,7 +11,7 @@ import{h as a,c as l,s as i,a as s,t as o,b as c,H as d,F as n,d as r,e as x}fro
         <img class="absolute top-6 left-0 right-0 m-auto w-17" src="${l.logoOnly}" alt="${l.name} Logo" class="h-10 w-auto">
       </div>
     </section>
-  `}function p(){const e=i.items.map(t=>`
+  `}function m(){const e=i.items.map(t=>`
     <div>
       <h3 class="text-2xl font-bold mb-8 title-underline">${t.title}</h3>
       <p class="text-lg leading-relaxed">${t.desc}</p>
@@ -50,7 +50,7 @@ import{h as a,c as l,s as i,a as s,t as o,b as c,H as d,F as n,d as r,e as x}fro
           ${o.map(t=>`
     <div class="group">
       <div class="overflow-hidden mb-4">
-        <img src="${t.image}" alt="${t.name}" class="w-full h-[400px] object-cover object-top transition duration-500 group-hover:scale-105 grayscale group-hover:grayscale-0">
+        <img src="${t.image}" alt="${t.name}" class="w-full h-[400px] object-cover object-top transition duration-500 group-hover:scale-105">
       </div>
       <div>
         <span class="text-[#B77449] font-bold uppercase block">${t.role}</span>
@@ -70,9 +70,11 @@ import{h as a,c as l,s as i,a as s,t as o,b as c,H as d,F as n,d as r,e as x}fro
       </div>
 
       <div class="mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        ${c.map(t=>`
-    <div class="bg-[#F4F3F1] rounded-lg overflow-hidden shadow-sm hover:shadow-md transition flex flex-col md:items-start">
-      <img src="${t.image}" class="w-full h-64 object-cover" alt="${t.title}">
+        ${d.map(t=>`
+    <div class="group bg-[#F4F3F1] rounded-lg overflow-hidden shadow-sm hover:shadow-md transition flex flex-col md:items-start">
+      <div class="overflow-hidden mb-4">
+        <img src="${t.image}" class="w-full h-64 object-cover object-top transition duration-500 group-hover:scale-105" alt="${t.title}">
+      </div>
       <div class="text-left px-6 pt-4 pb-8">
         <h3 class="text-2xl font-bold mb-3">${t.title}</h3>
         <p class="leading-relaxed mb-4">${t.desc}</p>
@@ -83,9 +85,9 @@ import{h as a,c as l,s as i,a as s,t as o,b as c,H as d,F as n,d as r,e as x}fro
     </section>
   `}const u=document.getElementById("app");u.innerHTML=`
   <div class="">
-    ${d()}
-    ${m()}
+    ${c()}
     ${p()}
+    ${m()}
     ${g()}
     ${b()}
     ${v()}
