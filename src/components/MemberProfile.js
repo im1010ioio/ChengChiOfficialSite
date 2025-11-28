@@ -32,7 +32,8 @@ export function MemberProfile(id) {
           <div class="w-full md:w-1/2">
             <div class="mb-12">
               <span class="text-[#B77449] font-bold block">${member.role}</span>
-              <h1 class="text-3xl font-bold mb-10">${member.name}</h1>
+              <h1 class="text-3xl font-bold mb-6">${member.name}</h1>
+              <p class="mb-12">${member.description}</p>
 
               <!-- Education -->
               <div class="mb-8">
