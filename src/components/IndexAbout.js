@@ -6,7 +6,7 @@ export function IndexAbout() {
       <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-start gap-12">
         <div class="md:w-1/3">
           <span class="font-sans text-sm font-bold uppercase">ABOUT</span>
-          <h2 class="text-4xl text-[#B77449] font-bold mb-6">${aboutData.title}</h2>
+          <h2 class="text-4xl text-[#B77449] font-bold mt-2 mb-8">${aboutData.title}</h2>
           <p class="text-2xl">${aboutData.subtitle}</p>
         </div>
         <div class="md:w-2/4 text-lg leading-loose ms-auto">

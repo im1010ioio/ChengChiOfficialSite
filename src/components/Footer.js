@@ -32,7 +32,7 @@ export function Footer() {
               ${linksMember}
             </div>
           </div>
-          <span class="text-xs text-gray-400 mt-12 md:mt-auto mb-2">Copyright © ${currentYear} 丞起聯合會計師事務所 All rights reserved.</span>
+          <span class="text-xs text-gray-400 mt-12 md:mt-auto">Copyright © ${currentYear} 丞起聯合會計師事務所 All rights reserved.</span>
         </div>
 
       </div>

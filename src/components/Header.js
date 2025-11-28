@@ -4,14 +4,14 @@ export function Header() {
   const renderNavItem = (link) => {
     if (link.name === "專業諮詢") {
       const dropdownItems = teamData.map(member =>
-        `<a href="${member.id}.html" class="block px-4 pt-1 pb-3 md:pt-2 md:pb-4 bg-[#F4F3F1] md:bg-white hover:bg-[#F4F3F1] hover:text-[#B77449]">${member.name}${member.role}</a>`
+        `<a href="${member.id}.html" class="block px-4 py-2 bg-[#F4F3F1] md:bg-white hover:bg-[#F4F3F1] hover:text-[#B77449]">${member.name}${member.role}</a>`
       ).join('');
 
       return `
         <div class="relative group">
           <button class="font-bold w-full md:w-auto block py-2 md:py-0 hover:text-[#B77449] flex justify-center md:justify-start items-center gap-1 focus:outline-none cursor-pointer dropdown-toggle">
             ${link.name}
-            <svg class="w-4 h-4 mt-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
           </button>
           <!-- Unified Dropdown -->
           <div class="hidden mt-2 space-y-0 md:absolute md:left-0 md:top-full md:mt-2 md:w-48 md:bg-white md:rounded-sm md:shadow-lg md:py-1 md:z-50 md:border md:border-gray-100 md:pl-0 md:space-y-0 dropdown-menu">
@@ -36,7 +36,7 @@ export function Header() {
         </div>
 
         <!-- Desktop Menu -->
-        <nav class="hidden md:flex space-x-8 tracking-wide items-center mb-3">
+        <nav class="hidden md:flex space-x-8 tracking-wide items-center">
           ${navItems}
         </nav>
 

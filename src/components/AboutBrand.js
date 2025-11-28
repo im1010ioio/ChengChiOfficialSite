@@ -9,7 +9,7 @@ export function AboutBrand() {
 
   return AboutLayout({
     title: aboutPageData.philosophy.title,
-    subtitle: "Brand Philosophy",
+    subtitle: "Brand",
     content: contentHtml,
     className: "bg-white"
   });
