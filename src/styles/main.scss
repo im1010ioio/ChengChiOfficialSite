@@ -73,7 +73,7 @@ body {
   &::before {
     content: '';
     position: absolute;
-    bottom: -1rem;
+    bottom: -.5rem;
     left: 50%;
     transform: translateX(-50%);
     width: 50px;

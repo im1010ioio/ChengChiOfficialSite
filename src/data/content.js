@@ -31,7 +31,7 @@ export const navLinks = [
 export const heroData = {
     bgImage: heroBg,
     title: "丞心創新，起勢未來",
-    subtitle: "以高端專業與新世代思維，成為中小企業最值得信賴的成長夥伴"
+    subtitle: "以高端專業與新世代思維，<br class='md:hidden'>成為中小企業最值得信賴的成長夥伴"
 };
 
 export const sloganData = {

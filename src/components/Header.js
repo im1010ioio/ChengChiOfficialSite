@@ -4,12 +4,12 @@ export function Header() {
   const renderNavItem = (link) => {
     if (link.name === "專業諮詢") {
       const dropdownItems = teamData.map(member =>
-        `<a href="${member.id}.html" class="block px-4 py-2 bg-[#F4F3F1] md:bg-white hover:bg-[#F4F3F1] hover:text-[#B77449]">${member.name}${member.role}</a>`
+        `<a href="${member.id}.html" class="block px-4 pt-3 pb-2 bg-[#F4F3F1] md:bg-white hover:bg-[#F4F3F1] hover:text-[#B77449]">${member.name}${member.role}</a>`
       ).join('');
 
       return `
         <div class="relative group">
-          <button class="font-bold w-full md:w-auto block py-2 md:py-0 hover:text-[#B77449] flex justify-center md:justify-start items-center gap-1 focus:outline-none cursor-pointer dropdown-toggle">
+          <button class="font-bold w-full md:w-auto block py-2 mt-1 md:py-0 hover:text-[#B77449] flex justify-center md:justify-start items-center gap-1 focus:outline-none cursor-pointer dropdown-toggle">
             ${link.name}
             <svg class="w-4 h-4 pb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
           </button>
@@ -20,7 +20,7 @@ export function Header() {
         </div>
       `;
     }
-    return `<a href="${link.href}" class="font-bold block py-2 md:py-0 hover:text-[#B77449]">${link.name}</a>`;
+    return `<a href="${link.href}" class="font-bold block py-2 mt-1 md:py-0 hover:text-[#B77449]">${link.name}</a>`;
   };
 
   const navItems = navLinks.map(renderNavItem).join('');

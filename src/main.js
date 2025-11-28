@@ -13,6 +13,8 @@ const app = document.getElementById('app');
 
 app.innerHTML = `
   <div class="">
+    <!-- Spacer for fixed header -->
+    <div class="h-16"></div>
     ${Header()}
     ${IndexHero()}
     ${IndexValues()}
