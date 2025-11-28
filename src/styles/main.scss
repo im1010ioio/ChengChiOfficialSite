@@ -1,25 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-@font-face {
-  font-family: "GenWanMinTW";
-  src: url("../assets/fonts/GenWanMinTW/200.otf") format("opentype");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
 
 @font-face {
   font-family: "GenWanMinTW";
-  src: url("../assets/fonts/GenWanMinTW/400.otf") format("opentype");
+  src: url("../assets/fonts/GenWanMinTW/file.woff2") format("opentype");
   font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "GenWanMinTW";
-  src: url("../assets/fonts/GenWanMinTW/600.otf") format("opentype");
-  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
