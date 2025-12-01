@@ -5,7 +5,7 @@ import team3 from '../assets/team-3.png';
 import service1 from '../assets/service-1.png';
 import service2 from '../assets/service-2.png';
 import service3 from '../assets/service-3.png';
-import service4 from '../assets/service-1.png';
+import service4 from '../assets/service-4.png';
 import logoHorizon from '../assets/logo-horizon.svg';
 import logoSquareWhite from '../assets/logo-square-white.svg';
 import logoOnly from '../assets/logo-only.svg';

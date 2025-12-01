@@ -220,6 +220,7 @@ footer a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  filter: blur(1px);
 }
 
 section {
@@ -255,4 +256,15 @@ section {
   to {
     transform: scaleX(1);
   }
+}
+
+.hero-bg-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: rgba(109, 95, 86, .7);
+  background: linear-gradient(350deg, rgba(73, 59, 50, 0.85) 30%, rgba(135, 95, 70, 0.7) 65%, rgba(109, 95, 86, 0.7) 90%);
 }
