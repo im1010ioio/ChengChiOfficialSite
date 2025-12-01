@@ -266,5 +266,22 @@ section {
   bottom: 0;
   z-index: -1;
   background-color: rgba(109, 95, 86, .7);
-  background: linear-gradient(350deg, rgba(73, 59, 50, 0.85) 30%, rgba(135, 95, 70, 0.7) 65%, rgba(109, 95, 86, 0.7) 90%);
+  background: linear-gradient(350deg, rgba(73, 59, 50, 0.85) 20%, rgba(135, 95, 70, 0.7) 50%, rgba(109, 95, 86, 0.7) 100%);
+}
+
+.col-about-title {
+  position: relative;
+
+  @media screen and (min-width: 768px) {
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -6rem;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background-color: var(--color-primary);
+    }
+
+  }
 }

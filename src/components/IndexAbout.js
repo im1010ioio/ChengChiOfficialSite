@@ -2,9 +2,9 @@ import { aboutData } from '../data/content';
 
 export function IndexAbout() {
   return `
-    <section id="about" class="bg-white py-28">
+    <section id="about" class="bg-white py-28 border-b-2 border-[#E0DED8] sm:border-0">
       <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-start gap-12">
-        <div class="md:w-1/2">
+        <div class="col-about-title md:w-1/2">
           <span class="font-sans text-sm font-bold uppercase">ABOUT</span>
           <h2 class="tracking-wide text-4xl text-[#B77449] font-bold mt-2 mb-8">${aboutData.title}</h2>
           <p class="tracking-wide text-2xl">${aboutData.subtitle}</p>

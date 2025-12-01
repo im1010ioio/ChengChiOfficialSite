@@ -23,7 +23,7 @@ export function IndexTeam() {
           <span class="font-sans text-sm font-bold uppercase">PROFESSIONALS</span>
           <h2 class="tracking-wide text-4xl text-[#B77449] font-bold mt-2 mb-8">專業諮詢</h2>
         </div>
-        <div class="md:w-4/5 text-lg leading-loose grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="md:w-4/5 text-lg leading-loose grid grid-cols-1 md:grid-cols-3 gap-18 sm:gap-8 ">
           ${membersHtml}
         </div>
       </div>

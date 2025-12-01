@@ -30,12 +30,12 @@ export const navLinks = [
 
 export const heroData = {
     bgImage: heroBg,
-    title: "丞心創新，起勢未來",
+    title: "丞心創新<span class='md:inline hidden'>，</span><br class='md:hidden'>起勢未來",
     subtitle: "以高端專業與新世代思維，<br class='md:hidden'>成為中小企業最值得信賴的成長夥伴"
 };
 
 export const sloganData = {
-    title: "以專業築信任，以信任成價值",
+    title: "以專業築信任<span class='md:inline hidden'>，</span><br class='md:hidden'>以信任成價值",
     items: [
         { title: "專業深度", desc: "融合大型事務所之國際標準與豐富實務經驗，提供企業決策層最可信賴的專業建議。" },
         { title: "策略洞見", desc: "不止於稅務與財務，我們從產業結構與經營現況出發，協助企業掌握市場脈動，提前佈局。" },

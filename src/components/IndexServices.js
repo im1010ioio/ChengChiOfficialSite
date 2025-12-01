@@ -14,7 +14,7 @@ export function IndexServices() {
   `).join('');
 
   return `
-    <section id="services" class="py-20 bg-gray-50">
+    <section id="services" class="py-20 bg-white">
       <div class="max-w-6xl mx-auto px-6 text-center mb-16">
         <span class="font-sans text-sm font-bold uppercase">SERVICES</span>
         <h2 class="tracking-wide text-4xl text-[#B77449] font-bold mt-2 mb-8">服務項目</h2>
