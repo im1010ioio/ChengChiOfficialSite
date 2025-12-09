@@ -93,5 +93,12 @@ export function setupHeader() {
         }
       });
     });
+    // Close mobile menu when a link is clicked
+    const mobileLinks = menu.querySelectorAll('a');
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        menu.classList.add('hidden');
+      });
+    });
   }
 }
