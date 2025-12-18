@@ -1,7 +1,7 @@
 import heroBg from '../assets/hero-bg.png';
-import team1 from '../assets/team-1.png';
-import team2 from '../assets/team-2.png';
-import team3 from '../assets/team-3.png';
+import team1 from '../assets/team-1.jpg';
+import team2 from '../assets/team-2.jpg';
+import team3 from '../assets/team-3.jpg';
 import service1 from '../assets/service-1.png';
 import service2 from '../assets/service-2.png';
 import service3 from '../assets/service-3.png';
@@ -94,7 +94,7 @@ export const teamData = [
         id: "member1",
         name: "廖憶慈",
         role: "會計師",
-        image: team2,
+        image: team1,
         description: "廖憶慈會計師為丞起聯合會計師事務所合夥人，擁有英國碩士學位及企業評價師認證。曾任職勤業眾信與資誠，具備完整審計與稅務歷練。專精中小企業與個人稅務規劃、境外稅務、股權結構及 IPO 輔導，結合學術與實務經驗，提供全方位財稅諮詢服務。",
         education: [
             "英國南安普敦大學科學及財務管理研究所",
@@ -127,7 +127,7 @@ export const teamData = [
         id: "member2",
         name: "張竹淵",
         role: "會計師",
-        image: team3,
+        image: team2,
         description: "張竹淵會計師為丞起聯合會計師事務所合夥人，曾任外商亞洲區財務總監及資誠協理。專精於中小企業與境外稅務規劃、股權結構、帳務整併、內控測試及輔導公開發行。結合豐富實務與國際視野，提供專業財務諮詢與查核服務。",
         education: [
             "中興大學會計研究所",
@@ -155,7 +155,7 @@ export const teamData = [
         id: "member3",
         name: "盧文聰",
         role: "總顧問",
-        image: team1,
+        image: team3,
         description: "盧文聰為丞起聯合會計師事務所總顧問。具備台大商學與科技法律雙重背景，專精於金融業風險管理 (Basel II)、內部控制制度設計、營運流程改善及財務功能諮詢。兼任證交所 XBRL 委員與跨境創新協會理事長，提供跨領域專業服務。",
         education: [
             "台灣大學商學研究所碩士",
