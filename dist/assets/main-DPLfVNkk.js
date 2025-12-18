@@ -1,13 +1,13 @@
-import{h as o,s as l,c as d,a as s,t as i,b as n,H as c,F as r,d as x,e as m,A as p}from"./loading-CQ1mAoeI.js";function b(){return`
+import{h as l,s as o,c as d,a as s,t as i,b as n,H as c,F as r,d as x,e as m,A as p}from"./loading-CQ1mAoeI.js";function b(){return`
     <section id="top" class="relative h-[75vh] flex items-center justify-center bg-cover bg-center">
       <div class="h-16"></div>
       <div class="hero-bg-mask"></div>
       <div class="relative z-10 text-center text-white px-4">
-        <h1 class="text-shadow-xl text-[14vw] md:text-6xl md:text-6xl font-bold mb-[6vw] md:mb-6 tracking-wider">${o.title}</h1>
-        <b class="text-shadow-xl text-lg md:text-xl text-white/90 font-bold">${o.subtitle}</b>
+        <h1 class="text-shadow-xl text-[14vw] md:text-6xl md:text-6xl font-bold mb-[6vw] md:mb-6 tracking-wider">${l.title}</h1>
+        <b class="text-shadow-xl text-lg md:text-xl text-white/90 font-bold">${l.subtitle}</b>
       </div>
     </section>
-  `}function v(){const e=l.items.map(t=>`
+  `}function v(){const e=o.items.map(t=>`
     <div>
       <h3 class="text-2xl font-bold mb-8 title-underline">${t.title}</h3>
       <p class="text-lg leading-relaxed text-left">${t.desc}</p>
@@ -19,12 +19,12 @@ import{h as o,s as l,c as d,a as s,t as i,b as n,H as c,F as r,d as x,e as m,A a
         <img class="absolute top-6 left-0 right-0 m-auto h-9 w-auto" src="${d.logoOnly}" alt="${d.name} Logo">
       </div>
       <span class="relative z-20 font-sans text-sm font-bold uppercase">VALUES</span>
-      <h2 class="leading-relaxed tracking-wide text-3xl text-[#B77449] font-bold mt-2 mb-18">${l.title}</h2>
+      <h2 class="leading-relaxed tracking-wide text-3xl text-[#B77449] font-bold mt-2 mb-18">${o.title}</h2>
       <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-14 sm:gap-8 text-center" data-aos="fade-up" data-aos-duration="1200">
         ${e}
       </div>
     </section>
-  `}function g(){return`
+  `}function u(){return`
     <section id="about" class="bg-white py-28 border-b-2 border-[#E0DED8] sm:border-0">
       <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-start gap-12" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="250">
         <div class="col-about-title md:w-1/2">
@@ -39,7 +39,7 @@ import{h as o,s as l,c as d,a as s,t as i,b as n,H as c,F as r,d as x,e as m,A a
         </div>
       </div>
     </section>
-  `}function u(){return`
+  `}function g(){return`
     <section id="professionals" class="bg-2tone py-28" >
       <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-start gap-12" data-aos="fade-up" data-aos-duration="1200">
         <div class="md:w-1/5">
@@ -74,7 +74,7 @@ import{h as o,s as l,c as d,a as s,t as i,b as n,H as c,F as r,d as x,e as m,A a
       <div class="mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         ${n.map((t,a)=>`
     <div class="group bg-[#F4F3F1] rounded-sm overflow-hidden shadow-sm hover:shadow-md transition flex flex-col md:items-start" data-aos="fade-up" data-aos-duration="800" data-aos-delay="${a*200}">
-      <div class="overflow-hidden mb-4">
+      <div class="w-full overflow-hidden mb-4">
         <img src="${t.image}" class="w-full h-64 object-cover object-top transition duration-500 group-hover:scale-105" alt="${t.title}">
       </div>
       <div class="text-left px-6 pt-4 pb-8">
@@ -90,8 +90,8 @@ import{h as o,s as l,c as d,a as s,t as i,b as n,H as c,F as r,d as x,e as m,A a
     ${c()}
     ${b()}
     ${v()}
-    ${g()}
     ${u()}
+    ${g()}
     ${f()}
     ${r()}
     <div id="loading">
