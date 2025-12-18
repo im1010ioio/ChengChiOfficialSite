@@ -1,4 +1,4 @@
-import{A as o,t as n,H as c,F as r,L as m,d as b,e as u}from"./loading-CR1mRm5y.js";o.init();function f(d){const e=d||new URLSearchParams(window.location.search).get("id"),s=n.find(i=>i.id===e);if(!s)return console.error(`Member not found for ID: ${e}`),'<div class="text-center py-20">Member not found</div>';const l=i=>!i||i.length===0?"":i.map(t=>`
+import{A as o,t as n,c,H as r,F as m,L as b,d as u,e as f}from"./loading-CQ1mAoeI.js";o.init();function p(d){const a=d||new URLSearchParams(window.location.search).get("id"),s=n.find(i=>i.id===a);if(!s)return console.error(`Member not found for ID: ${a}`),'<div class="text-center py-20">Member not found</div>';const l=i=>!i||i.length===0?"":i.map(t=>`
       <li class="flex items-start mb-2">
         <span class="leading-relaxed">${t}</span>
       </li>
@@ -9,7 +9,7 @@ import{A as o,t as n,H as c,F as r,L as m,d as b,e as u}from"./loading-CR1mRm5y.
           <!-- Left Column: Image -->
           <div class="w-full md:w-1/3" data-aos="fade-up" data-aos-duration="600">
             <div class="sticky top-24">
-              <img src="${s.image}" alt="${s.name}${s.role}" class="w-full h-auto object-cover shadow-lg rounded-sm">
+              <img src="${s.image}" alt="${c.name} ${s.name}${s.role}" class="w-full h-auto object-cover shadow-lg rounded-sm">
             </div>
           </div>
 
@@ -63,15 +63,15 @@ import{A as o,t as n,H as c,F as r,L as m,d as b,e as u}from"./loading-CR1mRm5y.
         </div>
       </div>
     </section>
-  `}const a=document.querySelector("#app"),p=a.dataset.memberId;a.innerHTML=`
-  ${c()}
+  `}const e=document.querySelector("#app"),v=e.dataset.memberId;e.innerHTML=`
+  ${r()}
   
   <!-- Spacer for fixed header -->
   <div class="hidden md:block h-16"></div>
 
   <main>
-    ${f(p)}
+    ${p(v)}
   </main>
-  ${r()}
-  ${m}
-`;b();u();AOS.init();
+  ${m()}
+  ${b}
+`;u();f();AOS.init();

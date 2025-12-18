@@ -2,7 +2,7 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 AOS.init();
 
-import { teamData } from '../data/content';
+import { companyInfo, teamData } from '../data/content';
 
 export function MemberLayout(id) {
   // Get member ID from argument or URL
@@ -33,7 +33,7 @@ export function MemberLayout(id) {
           <!-- Left Column: Image -->
           <div class="w-full md:w-1/3" data-aos="fade-up" data-aos-duration="600">
             <div class="sticky top-24">
-              <img src="${member.image}" alt="${member.name}${member.role}" class="w-full h-auto object-cover shadow-lg rounded-sm">
+              <img src="${member.image}" alt="${companyInfo.name} ${member.name}${member.role}" class="w-full h-auto object-cover shadow-lg rounded-sm">
             </div>
           </div>
 
