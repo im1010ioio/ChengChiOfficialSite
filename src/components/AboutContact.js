@@ -17,9 +17,10 @@ export function AboutContact() {
       <div>
         <h3 class="text-xl font-bold mb-4">聯絡方式</h3>
         <div class="space-y-2 ">
-          <p><span class="font-bold">電話：</span>${companyInfo.tel}</p>
-          <p><span class="font-bold">傳真：</span>${companyInfo.fax}</p>
-          <p><span class="font-bold">地址：</span>${companyInfo.address}</p>
+          <p><span class="font-bold">電話：</span><a href="tel:${companyInfo.tel}">${companyInfo.tel}</a></p>
+          <p><span class="font-bold">傳真：</span><span class="text-[#B77449]">${companyInfo.fax}</span></p>
+          <p><span class="font-bold">Email：</span><a href="mailto:${companyInfo.email}">${companyInfo.email}</a></p>
+          <p><span class="font-bold">地址：</span><a href="https://maps.app.goo.gl/FZVv62HdRdKpmWaQ6" target="_blank">${companyInfo.address}</a></p>
         </div>
       </div>
 
