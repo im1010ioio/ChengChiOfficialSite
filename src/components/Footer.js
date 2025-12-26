@@ -18,9 +18,10 @@ export function Footer() {
              <img src="${companyInfo.logoSquareWhite}" alt="${companyInfo.name}" class="h-30 w-auto">
            </div>
            <div class="text-sm text-gray-300 space-y-2">
-             <div>${companyInfo.address}</div>
-             <div>電話：${companyInfo.tel}</div>
+             <div><a href="${companyInfo.googleMapLink}" target="_blank">${companyInfo.address}</a></div>
+             <div>電話：<a href="tel:${companyInfo.tel}">${companyInfo.tel}</a></div>
              <div>傳真：${companyInfo.fax}</div>
+             <div>Email：<a href="mailto:${companyInfo.email}">${companyInfo.email}</a></div>
            </div>
         </div>
         <div class="flex flex-col md:items-end">

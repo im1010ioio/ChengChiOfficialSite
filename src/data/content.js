@@ -16,6 +16,7 @@ export const companyInfo = {
     logoSquareWhite: logoSquareWhite,
     logoOnly: logoOnly,
     address: "104695 台北市中山區松江路 71 號 4 樓",
+    googleMapLink: "https://maps.app.goo.gl/FZVv62HdRdKpmWaQ6",
     tel: "02-25080750",
     fax: "02-25080695",
     email: "service@cccpafirm.com.tw",
@@ -76,7 +77,7 @@ export const aboutPageData = {
     contact: {
         title: "聯絡我們",
         transport: {
-            mrt: "松江南京站 4 號出口－步行時間約2分鐘",
+            mrt: "松江南京站 4 號出口－步行時間約 2 分鐘",
             parking: [
                 "和雲台北松江路停車場－步行約 2 分鐘",
                 "嘟嘟房停車場 (建國高架站)－步行約 4 分鐘"
