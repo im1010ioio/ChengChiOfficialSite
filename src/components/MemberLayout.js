@@ -42,8 +42,8 @@ export function MemberLayout(id) {
             <div class="mb-12">
               <span class="text-[#B77449] font-bold block">${member.role}</span>
               <h1 class="text-3xl font-bold mb-6">${member.name}</h1>
-              <p class="mb-6">${member.description}</p>
-              <p class="mb-6">${member.description2}</p>
+              <p class="leading-loose mb-6">${member.description}</p>
+              <p class="leading-loose mb-6">${member.description2}</p>
 
               <!-- Education -->
               <div class="mt-12 mb-8">

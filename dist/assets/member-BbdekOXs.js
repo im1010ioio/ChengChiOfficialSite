@@ -1,4 +1,4 @@
-import{A as o,t as n,c,H as r,F as m,L as b,d as u,e as p}from"./loading-BlCzim3l.js";o.init();function f(d){const a=d||new URLSearchParams(window.location.search).get("id"),s=n.find(i=>i.id===a);if(!s)return console.error(`Member not found for ID: ${a}`),'<div class="text-center py-20">Member not found</div>';const l=i=>!i||i.length===0?"":i.map(t=>`
+import{A as o,t as n,c,H as r,F as m,L as b,d as u,e as p}from"./loading-BlCzim3l.js";o.init();function f(d){const e=d||new URLSearchParams(window.location.search).get("id"),s=n.find(i=>i.id===e);if(!s)return console.error(`Member not found for ID: ${e}`),'<div class="text-center py-20">Member not found</div>';const l=i=>!i||i.length===0?"":i.map(t=>`
       <li class="flex items-start mb-2">
         <span class="leading-relaxed">${t}</span>
       </li>
@@ -18,8 +18,8 @@ import{A as o,t as n,c,H as r,F as m,L as b,d as u,e as p}from"./loading-BlCzim3
             <div class="mb-12">
               <span class="text-[#B77449] font-bold block">${s.role}</span>
               <h1 class="text-3xl font-bold mb-6">${s.name}</h1>
-              <p class="mb-6">${s.description}</p>
-              <p class="mb-6">${s.description2}</p>
+              <p class="leading-loose mb-6">${s.description}</p>
+              <p class="leading-loose mb-6">${s.description2}</p>
 
               <!-- Education -->
               <div class="mt-12 mb-8">
@@ -64,7 +64,7 @@ import{A as o,t as n,c,H as r,F as m,L as b,d as u,e as p}from"./loading-BlCzim3
         </div>
       </div>
     </section>
-  `}const e=document.querySelector("#app"),v=e.dataset.memberId;e.innerHTML=`
+  `}const a=document.querySelector("#app"),v=a.dataset.memberId;a.innerHTML=`
   ${r()}
   
   <!-- Spacer for fixed header -->
